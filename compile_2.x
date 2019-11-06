@@ -1,4 +1,4 @@
-export LAMMPS_DIR=/home/Alessandro/Documents/Sources/lammps-16Mar18
+export LAMMPS_DIR=lammps-16Mar18
 
 mpic++ -I ${LAMMPS_DIR}/src -c LAMMPS-wrapper.cpp 
 mpif90 -c LAMMPS.F90
